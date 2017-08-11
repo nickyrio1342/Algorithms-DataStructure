@@ -27,7 +27,6 @@ bool cw (pt a, pt b, pt c) {
 }
 
 void convex_hull(vector<pt> &a) {
-    if (a.size() == 1) return;
     vector<pt> CH;
     int n = a.size();
     CH.push_back(a[0]);
